@@ -1,9 +1,9 @@
 /*******************element tag***************/
 body{
-  margin:0px;
+  margin: 0;
   text-align: center;
   font-family: verdana,sans-serif;
-
+  color:#40514E;
 }
 
 img{
@@ -15,7 +15,13 @@ h1{
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   color: #66BFBF;
+  font-size: 3rem;
 
+}
+
+h2{
+  color: #66BFBF;
+  padding: 20px;
 }
 
 a{
@@ -44,11 +50,17 @@ hr{
 /************class tag************/
 .top-containter{
   background-color: #e3fdfd;
-  height:40%;
+  height:10%;
   width: 100%;
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
+.intro{
+  width: 30%;
+  margin: auto;
+}
 .middle-container{
   height: 20%;
   width: 100%;
@@ -62,7 +74,8 @@ hr{
 
 .mountain{
   width: 70%;
-  margin-top: 40px;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 
